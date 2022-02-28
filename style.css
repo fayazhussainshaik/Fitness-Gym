@@ -1,0 +1,112 @@
+body {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    top: 26px;
+    /* border: 2px solid yellow; */
+}
+
+.left img {
+    width: 120px;
+}
+
+.left div {
+    text-align: center;
+    color: rgb(233, 100, 12);
+    font-size: 25px;
+}
+
+.mid {
+    display: block;
+    width: 42%;
+    margin: 26px auto;
+    /* border: 2px solid wheat; */
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 80px;
+    top: 20px;
+    /* border: 2px solid green; */
+    padding: 10px;
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 27px;
+    font-weight: bolder;
+
+}
+
+.navbar li a {
+    color: rgb(6, 250, 6);
+    text-decoration: none;
+    padding: 20px 20px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.btn {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    margin: 10px 5px;
+    background-color: rgb(248, 139, 7);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: aquamarine;
+}
+
+.container {
+    display: inline-block;
+    position: absolute;
+    right: 90px;
+    top: 150px;
+    width: 30%;
+    padding: 70px;
+    /* border: 2px solid green; */
+    border-radius: 26px;
+}
+
+.formgroup input {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    text-align: center;
+    display: block;
+    width: 440px;
+    padding: 3px;
+    margin: 10px auto;
+    border: 3px solid blue;
+    font-size: 24px;
+    border-radius: 15px;
+}
+
+.container h1 {
+    text-align: center;
+    color: rgb(255, 180, 88);
+}
+
+.container .btn {
+    display: block;
+    width: 175px;
+    margin: 15px auto;
+}
