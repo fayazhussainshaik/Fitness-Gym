@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="practice.css">
+</head>
+<style>
+    body {
+        font-family: 'Lobster', cursive;
+        background-color: grey;
+        text-align: center;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    .center {
+        width: 320px;
+        height: 520px;
+        border-radius: 25px;
+        background-color: rgb(125, 201, 224);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .header {
+        background-color: black;
+        color: rgba(255, 255, 255, 0.877);
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        height: 50px;
+        width: 320px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding-top: 15px;
+    }
+
+    button {
+        font-family: 'Lobster', cursive;
+        margin: 20px auto;
+        width: 150px;
+        height: 50px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        border: none;
+        border-radius: 8px;
+    }
+
+    input,select {
+        font-family: 'Lobster', cursive;
+        width: 85%;
+        border: none;
+        border-bottom: 1px solid #000000;
+        padding: 10px;
+        border-radius: 8px;
+    }
+</style>
+
+<body>
+    <div class="center">
+        <div class="header">
+            TIP CALCULATOR
+        </div>
+        <div>
+            <div>
+                <p>How much was your bill?</p>
+                $<input type="number" id="bill">
+                <p>How was the service?</p>
+                <select id="services">
+                    <option selected disabled hidden>
+                        Select
+                    </option>
+                    <option value="0.0">Poor</option>
+                    <option value="0.10">10% - Good</option>
+                    <option value="0.20">20% - Better</option>
+                    <option value="0.30">30% - Outstanding</option>
+                </select>
+                <p>Total number of persons</p>
+                <input type="number" id="persons"><br>
+                <button id="calculate">Calculate</button>
+            </div>
+            <div class="tip">
+                <p>Tip Amount</p>
+                $<span id="total">0</span>
+                <span id="each">each</span>
+            </div>
+        </div>
+    </div>
+    <script src="practice.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+body {
+    font-family: 'Lobster', cursive;
+    background-color: grey;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.center {
+    width: 320px;
+    height: 520px;
+    border-radius: 25px;
+    background-color: rgb(125, 201, 224);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.header {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.877);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+    width: 320px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 15px;
+}
+
+button {
+    font-family: 'Lobster', cursive;
+    margin: 20px auto;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+input,select {
+    font-family: 'Lobster', cursive;
+    width: 85%;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+    border-radius: 8px;
+}
